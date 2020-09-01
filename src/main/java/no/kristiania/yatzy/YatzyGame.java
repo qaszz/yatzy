@@ -1,7 +1,13 @@
 package no.kristiania.yatzy;
 
 public class YatzyGame {
-    public int score(YatzyCategory ones, int[] ints) {
-        return 4;
+    public int score(YatzyCategory ones, int[] dice) {
+        int result = 4;
+        for (int die : dice){
+            if (die == 1){
+                result +=1;
+            }
+        }
+        return result;
     }
 }
