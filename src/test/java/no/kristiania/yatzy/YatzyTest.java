@@ -22,7 +22,7 @@ public class YatzyTest {
 
     @Test
     void shouldScorePair(){
-        assertEquals(10, yatzyGame.score(YatzyCategory.PAIR, new int[]{ 5, 5, 3, 2, 4}));
+        assertEquals(10, yatzyGame.score(YatzyCategory.PAI, new int[]{ 5, 5, 3, 2, 4}));
     }
 
 }
