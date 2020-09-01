@@ -20,4 +20,9 @@ public class YatzyTest {
         assertEquals(2, yatzyGame.score(YatzyCategory.TWOS, new int[]{ 6, 5, 2, 1, 1}));
     }
 
+    @Test
+    void shouldScorePair(){
+        assertEquals(10, yatzyGame.score(YatzyCategory.PAIR, new int[]{ 5, 5, 3, 2, 4}));
+    }
+
 }
